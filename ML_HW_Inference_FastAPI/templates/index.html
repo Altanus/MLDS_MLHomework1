@@ -1,0 +1,17 @@
+<html>
+    <head>
+
+    <title>MAIN PAGE</title>
+        <link rel="stylesheet" href="{{url_for('static', path ='style.css')}}">
+    </head>
+    <body>
+
+    <h3>{{ message }}</h3>
+    <form action="/predict_items" method="post" enctype="multipart/form-data">
+        <input type="text" name="name"> <br><br>
+        <input type="file" name="db_file"><br>
+        <button type="submit">Upload</button>
+    </form>
+    <br>
+    </body>
+</html>

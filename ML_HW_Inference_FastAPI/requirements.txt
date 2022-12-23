@@ -1,0 +1,6 @@
+fastapi
+uvicorn[standard]
+pandas
+sklearn
+jinja2
+python-multipart
